@@ -1,0 +1,46 @@
+.email {
+  text-align: left;
+}
+.date,
+.subject,
+.from,
+.attachments,
+.type {
+  padding: 1rem;
+  border: 1px solid #fff;
+}
+
+@media (max-width:960px) {
+  .email {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .from {
+    order: -2;
+    flex: 1 0 60%;
+  }
+  .type {
+    order: -1;
+    flex: 1 0 20%;
+  }
+  .subject {
+    order: 1;
+    flex: 1 0 20%;
+  }
+  .attachments {
+    order: 2;
+    flex: 1 0 30%;
+  }
+  .date {
+    order: 3;
+    flex: 1 0 20%;
+  }
+}
+
+@media (min-width:960px) {
+  .email {
+    display: flex;
+    flex-direction: row;
+  }
+}

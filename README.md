@@ -1,3 +1,21 @@
+HI!
+
+To start the app use yarn start or npm start
+
+1. Tree traversal, please see traversal.js and use browsers console to see the output
+2. React, please see reactcomp.js, output can be seen on http://localhost:3000/, please remove idb and idc to see different values
+3. DOM styling, please see domstyling.js, out can be seen on http://localhost:3000/, please try different values in App.js
+4. CSS layout, please see emailmsg.js and Emailmsg.css, output can be seen on http://localhost:3000/, make the browser window smaller or larger to see different breakpoints
+
+Best regards
+Pawel
+
+
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
